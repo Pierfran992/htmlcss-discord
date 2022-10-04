@@ -184,7 +184,7 @@ h1 {
 }
 
 .conteiner-column .buttom-dwnl-mac {
-    background-color: rgb(112, 5, 252);
+    background-color: #5865f2;
 }
 .conteiner-column .buttom-dwnl-mac > .dwnl-mac {
     color: #fff;
@@ -195,7 +195,7 @@ h1 {
 /* footer */
 
 footer {
-    background-color: rgb(41, 39, 39);
+    background-color: #23272a;
     color: #fff;
     min-height: 500px;
     padding: 10px 0;
@@ -208,7 +208,7 @@ footer {
     justify-content: space-between;
 }
 
-.language {
+.selector-language {
     display: flex;
 }
 .col {
@@ -221,11 +221,27 @@ footer {
     height: 15px;
 }
 
+.col > h4, ul {
+    color: #5865f2;
+}
+.language {
+    margin: 0 15px;
+}
+
+i {
+    margin-right: 15px;
+}
+
 .credits {
     width: 80%;
     margin: 20px auto;
     padding: 10px 0;
-    border-top: solid 2px #fff;
+    border-top: solid 2px #5865f2;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in {
+    background-color: #5865f2;
 }
