@@ -195,29 +195,30 @@ h1 {
 /* footer */
 
 footer {
-    background-color: rgb(26, 25, 25);
+    background-color: rgb(41, 39, 39);
+    color: #fff;
     min-height: 500px;
     padding: 10px 0;
 }
 
 .conteiner-footer {
     width: 80%;
-    height: 200px;
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
 
-.social {
-    background-color: #fff;
-    height: 200px;
-    width: 200px;
+.language {
+    display: flex;
+}
+.col {
+    width: 25%;
+    height: 100%;
 }
 
-.link {
-    background-color: #fff;
-    height: 200px;
-    width: 200px;
+#ita-flag {
+    width: 25px;
+    height: 15px;
 }
 
 .credits {
