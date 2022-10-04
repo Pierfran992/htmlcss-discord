@@ -1,0 +1,193 @@
+/* struttura generale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* header */
+
+header {
+    background-image: url(../img/jumbo.png);
+    min-height: 1251px;
+}
+
+.header-conteiner-menu {
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 50%;
+}
+
+.menu {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+.buttom {
+    background-color: #fff;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.log-in {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.header-title {
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    margin: 350px auto;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.buttom-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttom-dwnl-mac {
+    background-color: #fff;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    border-radius: 30%;
+}
+
+.dwnl-mac {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.buttom-open-discord {
+    background-color: rgb(37, 37, 37);
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    border-radius: 30%;
+}
+
+.open-discord {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+/* main */
+
+main {
+    background-color: black;
+    min-height: 1000px;
+    margin: 100px auto;
+    padding: 10px 0;
+}
+
+.row-white {
+    background-color: #fff;
+    height: 600px;
+    width: auto;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.row-grey {
+    background-color: rgba(255, 255, 255, 0.267);
+    height: 600px;
+    width: auto;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.img {
+    background-color: rgb(8, 245, 213);
+    height: 400px;
+    width: 400px;
+    margin: 10px 0;
+}
+
+.text {
+    background-color: rgb(8, 245, 213);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .credits {
+    background-color: rgb(8, 245, 213);
+} */
+
+/* footer */
+
+footer {
+    background-color: rgb(26, 25, 25);
+    min-height: 500px;
+    padding: 10px 0;
+}
+
+.conteiner-footer {
+    width: 80%;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+}
+
+.link {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+}
+
+.credits {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px 0;
+    border-top: solid 2px #fff;
+    display: flex;
+    justify-content: space-between;
+}
